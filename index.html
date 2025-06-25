@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Hanafi - Software Engineer </title>
+    <meta name="description"
+        content="Full Stack Developer specializing in creating innovative web solutions with exceptional user experiences">
+    <meta name="keywords" content="web developer, full stack, UI/UX, portfolio">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👨‍💻</text></svg>">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">AH</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <span class="close-menu">&times;</span>
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <h1 class="fade-in">Abdullah Hanafi</h1>
+            <p class="subtitle fade-in">Software Engineer </p>
+            <div class="typing-text">
+                <span id="typed-text"></span><span class="typing-cursor"></span>
+            </div>
+            <div class="hero-buttons fade-in">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-briefcase"></i> View Projects
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Get In Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>About Me</h2>
+                <p>Passionate about scalable system and functional digital experiences</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image fade-in-left">
+                    <img src="/assets/Image1.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-text fade-in-right">
+                    <h3>Hi, I'm Abdullah 👋</h3>
+                    <p>
+                        I’m a passionate and results-driven Software Engineer based in Cairo, Egypt, with a
+                        Bachelor's degree in Computer Science and strong expertise in .NET Core and Angular. I
+                        specialize in building scalable, maintainable, and responsive web applications using modern
+                        technologies and clean architecture principles.
+
+                        With hands-on experience in both backend and frontend development, I’ve delivered full-stack
+                        projects that integrate robust APIs, database design, Dockerized environments, and intuitive
+                        user interfaces. My strong problem-solving skills have been honed through competitive
+                        programming, where I’ve been a finalist in the Egyptian Collegiate Programming Contest (ECPC)
+                        and secured top ranks in national contests.
+
+                        Beyond technical work, I actively contribute to the developer community through coaching,
+                        mentoring, and organizing training programs in data structures and algorithms. I'm always eager
+                        to learn, adapt, and take on new challenges that push my abilities and create meaningful digital
+                        solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section id="skills" class="section">
+        <section class="container">
+            <div class="section-title fade-in">
+                <h2>Skills</h2>
+                <p>Technical expertise and programming languages I've mastered</p>
+            </div>
+            <div class="container">
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-icon">C#</div>
+                        <div class="skill-name">C#</div>
+                        <div class="skill-description">
+                            Developing object-oriented applications, APIs, and microservices with advanced C# features
+                            and
+                            LINQ for clean code architecture.
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon">.NET</div>
+                        <div class="skill-name">.NET Core</div>
+                        <div class="skill-description">
+                            Building robust web applications, APIs and MVC applications using C# and ASP.NET
+                            Core for enterprise-level solutions.
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon">🗄️</div>
+                        <div class="skill-name">SQL Server</div>
+                        <div class="skill-description">
+                            Database design, optimization, and management for high-performance applications with complex
+                            data relationships.
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon">EF</div>
+                        <div class="skill-name">Entity Framework Core</div>
+                        <div class="skill-description">
+                            Implementing data access layers with Code-First approach, migrations, and complex queries
+                            for
+                            robust database operations.
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon">⚡</div>
+                        <div class="skill-name">Dapper</div>
+                        <div class="skill-description">
+                            High-performance data access with micro-ORM for complex SQL queries and stored procedures in
+                            performance-critical applications.
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon">🧪</div>
+                        <div class="skill-name">Unit Testing</div>
+                        <div class="skill-description">
+                            Writing comprehensive test suites using xUnit, NUnit, and Moq for reliable, maintainable,
+                            and
+                            bug-free applications.
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fa-brands fa-docker"></i></div>
+                        <div class="skill-name">Docker</div>
+                        <div class="skill-description">
+                            Containerizing applications, creating multi-stage builds, and orchestrating development
+                            environments for consistent deployments.
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🔴</div>
+                        <div class="skill-name">Redis</div>
+                        <div class="skill-description">
+                            Implementing caching strategies, session management, and real-time features for improved
+                            application performance and scalability.
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon">🏗️</div>
+                        <div class="skill-name">Design Patterns</div>
+                        <div class="skill-description">
+                            Implementing SOLID principles, Repository, Factory, Unit of work , Opion pattern and other
+                            GOF
+                            patterns for
+                            maintainable and scalable code architecture.
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon">🧩</div>
+                        <div class="skill-name">Competitive Programming</div>
+                        <div class="skill-description">
+                            Solving complex algorithmic challenges, data structures optimization, and problem-solving
+                            with
+                            efficient time and space complexity.
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fa-brands fa-angular"></i></div>
+                        <div class="skill-name">Angular</div>
+                        <div class="skill-description">
+                            Building dynamic single-page applications with TypeScript, RxJS, and Angular Material for
+                            modern
+                            web experiences.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br><br>
+        </section>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Featured Projects</h2>
+                <p>Some of my recent work that showcases my skills and creativity</p>
+            </div>
+
+            <!-- update max width for better ui before adding new projects -->
+            <div class="projects-grid">
+                <div style="max-width: 500px;" class="project-card fade-in scale-in" data-category="web">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="project-overlay">
+                            <!-- <a href="#" title="View Demo"><i class="fas fa-external-link-alt"></i></a> -->
+                            <a href="https://github.com/AbdullahHanfi/eShop" title="View Code"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Shop Platform</h3>
+                        <p>Built scalable e-commerce platform using N-Tier architecture, Docker, design patterns,
+                            Dapper/EF Core, unit testing, and responsive cross-device UI.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">ASP.NET MVC</span>
+                            <span class="tech-tag">EF Core</span>
+                            <span class="tech-tag">N-tier architecture</span>
+                            <span class="tech-tag">EF Core</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Unit Testing</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-content fade-in">
+                <h2 style="color: white; margin-bottom: 20px;">Let's Work Together</h2>
+                <p style="font-size: 1.2rem; opacity: 0.9;">
+                    I'm always interested in hearing about new projects and opportunities.
+                </p>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>abdullah.hanfi@protonmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+20 1123882500</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Egypt , Cairo</span>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/abdullah-hanafi-7a3abb204/" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/AbdullahHanfi" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a herf="https://codeforces.com/profile/D9hemy" aria-label="Codeforces">
+                        <img width="24" height="24"
+                            src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png"
+                            alt="external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+    <script src="site.js"></script>
+</body>
+
+</html>
